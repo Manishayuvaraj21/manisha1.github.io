@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white; 
+            color: black;
+        }
+
+        header {
+            background-color: #5680E9; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            border-bottom: 2px solid black; 
+            padding-bottom: 10px;
+            color: black; 
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Project and Blog Post Styles */
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #84CEEB; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5AB9EA; 
+        }
+
+
+        /* Contact Section */
+        #contact p {
+            font-size: 1.1em;
+        }
+
+        #contact a {
+            color: #5680E9;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #8860D0; 
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Maniha Y, a young brain with a passion for web development. I specialize in C,Python,Java,Html,Css,Javascript,Mysql,Django and enjoy working on projects that involve Html,Css,Js,Mysql,Django.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Video store Management System:</h3>
+                <ul class="spaced-list">
+                    <li>Engineered an innovative video management system allowing users to efficiently search for videos based on name, language, or rating; granted admin exclusive rights for adding and updating movies.
+                    </li>
+                    
+                    <li>
+                        Developed using Python(Tkinter) as frontend and MySQL for database.
+                    </li>
+                
+                </ul>
+                
+            </div>
+            <div class="project">
+                <h3>Airline Reservation System:</h3>
+                <ul class="spaced-list">
+                    <li>This website ensures users to effortlessly search for fights, book tickets by specifying locations and securely submit payment details.
+                    </li>
+                    <li>
+                        Developed using HTML,CSS,Django.
+                    </li>
+                
+                </ul>
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Life at kumaraguru College of Technology</h3>
+                <p id="post1">"Arise, awake and stop not till the goal is reached." - Swami Vivekananda 
+                    <br><br>
+                    Stepping into the vibrant campus of Kumaraguru College of Technology (KCT) in Coimbatore was a dream come true. Here's a peek into my daily life and experiences at this incredible institution.
+                    <br><br>
+                    The first day at KCT was a mix of excitement and nervousness. Walking through the grand entrance, I was greeted by the lush green campus, modern buildings, and the buzzing energy of fellow students.
+                    <br><br>
+                    Living in the college hostel was an experience in itself. The rooms were comfortable, and I quickly made friends with my roommates. Late-night study sessions and impromptu celebrations became a routine. 
+                    <br><br>
+                    The professors at KCT are not just teachers but mentors. Their approachability and willingness to help made learning a fulfilling experience. They encouraged us to think critically and innovate.
+                    <br><br>
+                    The annual tech fest, 'Yugam,' was a highlight of the year. Students from different colleges participated, showcasing their talents. The cultural fest, 'Kumaraguru Utsav,' brought out the artist in every student.
+                    <br><br>
+                    My experience at Kumaraguru College of Technology was more than just an academic journey; it was a life-changing adventure. The memories, friendships, and lessons learned here will always hold a special place in my heart.
+                    <br><br>
+                    Here's to pursuing excellence and striving for even greater success in the future
+                    #kumaraguruCollegeofTechnology
+                    #informationtechnology hashtag #lifeatkct
+                    #gratitude</p>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:manishayuvaraj2003@gmail.com">manishayuvaraj2003@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/manisha-yuvaraj-823708270" target="_blank">manisha-y</a></p>
+            <p>GitHub: <a href="https://github.com/Manishayuvaraj21" target="_blank">manisha21</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Manisha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
